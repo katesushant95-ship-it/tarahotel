@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Hotel Tara is a single-hotel application.
+    // To allow seamless client-side management and direct orders without forcing Firebase Auth,
+    // read and write permissions are open.
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

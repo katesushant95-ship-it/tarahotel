@@ -1,0 +1,6 @@
+{
+  "name": "Restaurant QR Ordering App",
+  "description": "A complete real-time QR-code menu and ordering system for restaurants and owners with live Firestore sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
